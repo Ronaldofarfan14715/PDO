@@ -11,9 +11,9 @@ $pdo = new PDO($cadena,$usuario,$password);
 
 //echo "conecto";
 
-} catch (Exception $e) {
+} catch (Exception $x) {
 	
-	echo $e;
+	echo $x;
 }
 
 
